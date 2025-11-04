@@ -5,10 +5,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/demo2")
+@RequestMapping("/api")
 public class DemoController {
 
-    @GetMapping("/test2")
+    @GetMapping("/test")
     public String demo(){
         return "This is Second Microservice";
     }

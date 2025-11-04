@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.service.annotation.GetExchange;
 
 @RestController
-@RequestMapping("/demo")
+@RequestMapping("/api")
 public class DemoController {
 
     @GetMapping("/test")
